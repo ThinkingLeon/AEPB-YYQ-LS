@@ -5,13 +5,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class PackingLot {
+public class ParkingLot {
     private int totalNum;
     private int remainPackingNum;
 
     private List<Car> stoppedCars = new ArrayList<>();
 
-    public PackingLot(int totalNum) {
+    public ParkingLot(int totalNum) {
         this.totalNum = totalNum;
         this.remainPackingNum = totalNum;
     }
